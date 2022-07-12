@@ -11,7 +11,7 @@ export default function Index() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta name="author" content="Anurag"/>
         <meta name="keywords" content="Typescript,Space,Twitter,TwitterSpace,Nextjs"/>
-        <meta name="description" content=""/>
+        <meta name="description" content="Helps you to find your favorite twitter spaces"/>
 
       </Head>
       <div className="flex text-5xl font-light mt-[5rem]  flex-row ml-[5rem] ">
@@ -22,7 +22,7 @@ export default function Index() {
           <button className="mt-10 bg-twi text-white text-4xl font-semibold px-8 py-5 rounded-full hover:bg-white hover:text-twi border-2 border-twi" onClick={() => router.push('/')}>Join Waitlist</button> </div>
         </div>
         <div className="ml-[10rem] w-[520px]"> 
-          <Image src={balloon} />
+          <Image src={balloon} alt="air balloon image" />
         </div>
       </div>
        
