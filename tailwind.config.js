@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       colors: {
         'twi': '#5C95FF',
-        'bl':'1D2F6F',
+        'bl':'#1D2F6F',
       },
     },
   },
