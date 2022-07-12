@@ -8,8 +8,11 @@ export default function Index() {
     <>
     <Head>
         <title>Spaces</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="author" content="Anurag"/>
+        <meta name="keywords" content="Typescript,Space,Twitter,TwitterSpace,Nextjs"/>
+        <meta name="description" content=""/>
+
       </Head>
       <div className="flex text-5xl font-light mt-[5rem]  flex-row ml-[5rem] ">
         <div className=" mt-20 leading-relaxed" >
