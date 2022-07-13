@@ -1,11 +1,11 @@
 import Navbar from "./components/Navbar"
-import Index from "./pages/index"
+import Home from "./Home"
 
 export default function index() {
   return (
     <> 
     <Navbar/>
-    <Index/>
+    <Home/>
     </>
   )
 }
