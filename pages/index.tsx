@@ -2,8 +2,8 @@ import Image from "next/image";
 import { useRouter } from 'next/router'
 import balloon from "./assets/balloon.svg";
 import Head from 'next/head'
-export default function index() {
-   const router = useRouter()
+export default function Index() {
+  const router = useRouter()
   return (
     <>
     <Head>
