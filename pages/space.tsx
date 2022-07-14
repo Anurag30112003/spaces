@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function space() {
+export default function Space() {
 
     // Get spaces from twitter api and add bearer token to the header from .env file    
     // add cors to the header                     
