@@ -19,7 +19,7 @@ export default function Index() {
           Discover great <span className="text-twi font-semibold ">Spaces</span> to listen in !
           <div className="text-3xl text-bl text-center leading-relaxed	">Helps you to find your favorite twitter spaces </div>
           <div className="text-center">
-          <button className="mt-10 bg-twi text-white text-4xl font-semibold px-8 py-5 rounded-full hover:bg-white hover:text-twi border-2 border-twi" onClick={() => router.push('/')}>Join Waitlist</button> </div>
+          <button className="mt-10 bg-twi text-white text-4xl font-semibold px-8 py-5 rounded-full hover:bg-white hover:text-twi border-2 border-twi" onClick={() => router.push('/space')}>Join Waitlist</button> </div>
         </div>
         <div className="ml-[10rem] w-[520px]"> 
           <Image src={balloon} alt="air balloon image" />
